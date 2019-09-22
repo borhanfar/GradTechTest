@@ -1,5 +1,13 @@
 function createMenuData(data) {
- debug('hhh');
+  data.forEach(function (item) {
+    var stringArra = [];
+    var splitItem = item.split("/");
+    item = {}
+    item ["title"] = splitItem[0];
+    item ["data"] = splitItem[1];
+      console.log(item);
+  
+  });
 }
 
 describe("menu Data Generator", () => {
