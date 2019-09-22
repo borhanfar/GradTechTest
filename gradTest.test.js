@@ -1,5 +1,5 @@
 function createMenuData(data) {
-
+ debug('hhh');
 }
 
 describe("menu Data Generator", () => {
